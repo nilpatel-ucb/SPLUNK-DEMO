@@ -1,0 +1,11 @@
+{
+  "name": "splunk-demo",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "serve": "python3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1"
+  }
+}
